@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E6284A22044FFDD00AA386C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6284A12044FFDD00AA386C /* AppDelegate.swift */; };
+		5E6284A42044FFDD00AA386C /* LocalAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6284A32044FFDD00AA386C /* LocalAuthenticationViewController.swift */; };
+		5E6284A72044FFDD00AA386C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6284A52044FFDD00AA386C /* Main.storyboard */; };
+		5E6284A92044FFDD00AA386C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6284A82044FFDD00AA386C /* Assets.xcassets */; };
+		5E6284AC2044FFDD00AA386C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6284AA2044FFDD00AA386C /* LaunchScreen.storyboard */; };
+		5E7D7E562045CA1C0056D5EF /* Iteratable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D7E552045CA1C0056D5EF /* Iteratable.swift */; };
+		5EB1280D2045D9F100C310D5 /* SwiftKeychainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1280C2045D9F100C310D5 /* SwiftKeychainViewController.swift */; };
+		89B1393350C217CC8678052B /* Pods_LocalAuthenticationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2A13897C1997FAC3FAFD54 /* Pods_LocalAuthenticationDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0581FBDADAD9222DAD8C56A5 /* Pods-LocalAuthenticationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalAuthenticationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalAuthenticationDemo/Pods-LocalAuthenticationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5E62849E2044FFDD00AA386C /* LocalAuthenticationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalAuthenticationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6284A12044FFDD00AA386C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E6284A32044FFDD00AA386C /* LocalAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationViewController.swift; sourceTree = "<group>"; };
+		5E6284A62044FFDD00AA386C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E6284A82044FFDD00AA386C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E6284AB2044FFDD00AA386C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E6284AD2044FFDD00AA386C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7D7E552045CA1C0056D5EF /* Iteratable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iteratable.swift; sourceTree = "<group>"; };
+		5EB1280C2045D9F100C310D5 /* SwiftKeychainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKeychainViewController.swift; sourceTree = "<group>"; };
+		CE2A13897C1997FAC3FAFD54 /* Pods_LocalAuthenticationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalAuthenticationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4106C6FF3CF701B4D7CA77D /* Pods-LocalAuthenticationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalAuthenticationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalAuthenticationDemo/Pods-LocalAuthenticationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E62849B2044FFDD00AA386C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B1393350C217CC8678052B /* Pods_LocalAuthenticationDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B45A74481D309B3135A4A33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4106C6FF3CF701B4D7CA77D /* Pods-LocalAuthenticationDemo.debug.xcconfig */,
+				0581FBDADAD9222DAD8C56A5 /* Pods-LocalAuthenticationDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E6284952044FFDD00AA386C = {
+			isa = PBXGroup;
+			children = (
+				5E6284A02044FFDD00AA386C /* LocalAuthenticationDemo */,
+				5E62849F2044FFDD00AA386C /* Products */,
+				4B45A74481D309B3135A4A33 /* Pods */,
+				C0BF97809F1F941037C2D56E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E62849F2044FFDD00AA386C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E62849E2044FFDD00AA386C /* LocalAuthenticationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E6284A02044FFDD00AA386C /* LocalAuthenticationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5E6284A12044FFDD00AA386C /* AppDelegate.swift */,
+				5E6284A82044FFDD00AA386C /* Assets.xcassets */,
+				5E6284AD2044FFDD00AA386C /* Info.plist */,
+				5E7D7E552045CA1C0056D5EF /* Iteratable.swift */,
+				5E6284AA2044FFDD00AA386C /* LaunchScreen.storyboard */,
+				5E6284A32044FFDD00AA386C /* LocalAuthenticationViewController.swift */,
+				5E6284A52044FFDD00AA386C /* Main.storyboard */,
+				5EB1280C2045D9F100C310D5 /* SwiftKeychainViewController.swift */,
+			);
+			path = LocalAuthenticationDemo;
+			sourceTree = "<group>";
+		};
+		C0BF97809F1F941037C2D56E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A13897C1997FAC3FAFD54 /* Pods_LocalAuthenticationDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E62849D2044FFDD00AA386C /* LocalAuthenticationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6284B02044FFDD00AA386C /* Build configuration list for PBXNativeTarget "LocalAuthenticationDemo" */;
+			buildPhases = (
+				C7BA94B58CC6BB5CEAC624A5 /* [CP] Check Pods Manifest.lock */,
+				5E62849A2044FFDD00AA386C /* Sources */,
+				5E62849B2044FFDD00AA386C /* Frameworks */,
+				5E62849C2044FFDD00AA386C /* Resources */,
+				EEEFBE946A2E0A4916393451 /* [CP] Embed Pods Frameworks */,
+				9A77F726216B04A6D6C40427 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalAuthenticationDemo;
+			productName = LocalAuthenticationDemo;
+			productReference = 5E62849E2044FFDD00AA386C /* LocalAuthenticationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E6284962044FFDD00AA386C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nicholas Rose";
+				TargetAttributes = {
+					5E62849D2044FFDD00AA386C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E6284992044FFDD00AA386C /* Build configuration list for PBXProject "LocalAuthenticationDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E6284952044FFDD00AA386C;
+			productRefGroup = 5E62849F2044FFDD00AA386C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E62849D2044FFDD00AA386C /* LocalAuthenticationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E62849C2044FFDD00AA386C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6284AC2044FFDD00AA386C /* LaunchScreen.storyboard in Resources */,
+				5E6284A92044FFDD00AA386C /* Assets.xcassets in Resources */,
+				5E6284A72044FFDD00AA386C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A77F726216B04A6D6C40427 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalAuthenticationDemo/Pods-LocalAuthenticationDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BA94B58CC6BB5CEAC624A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalAuthenticationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEEFBE946A2E0A4916393451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocalAuthenticationDemo/Pods-LocalAuthenticationDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalAuthenticationDemo/Pods-LocalAuthenticationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E62849A2044FFDD00AA386C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB1280D2045D9F100C310D5 /* SwiftKeychainViewController.swift in Sources */,
+				5E6284A42044FFDD00AA386C /* LocalAuthenticationViewController.swift in Sources */,
+				5E7D7E562045CA1C0056D5EF /* Iteratable.swift in Sources */,
+				5E6284A22044FFDD00AA386C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E6284A52044FFDD00AA386C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6284A62044FFDD00AA386C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E6284AA2044FFDD00AA386C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6284AB2044FFDD00AA386C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E6284AE2044FFDD00AA386C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E6284AF2044FFDD00AA386C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E6284B12044FFDD00AA386C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4106C6FF3CF701B4D7CA77D /* Pods-LocalAuthenticationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9K7UV5DGR;
+				INFOPLIST_FILE = LocalAuthenticationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nrose.LocalAuthenticationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E6284B22044FFDD00AA386C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0581FBDADAD9222DAD8C56A5 /* Pods-LocalAuthenticationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9K7UV5DGR;
+				INFOPLIST_FILE = LocalAuthenticationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nrose.LocalAuthenticationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E6284992044FFDD00AA386C /* Build configuration list for PBXProject "LocalAuthenticationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6284AE2044FFDD00AA386C /* Debug */,
+				5E6284AF2044FFDD00AA386C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6284B02044FFDD00AA386C /* Build configuration list for PBXNativeTarget "LocalAuthenticationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6284B12044FFDD00AA386C /* Debug */,
+				5E6284B22044FFDD00AA386C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E6284962044FFDD00AA386C /* Project object */;
+}
